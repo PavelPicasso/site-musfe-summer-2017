@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+.image {
+    display: block;
+    width: 70%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/BeYour.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form.registration {
+    margin-bottom: 140px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    width: 30%;
+    padding: 20px;
+    //background: #fff;
+    background-image: url("../images/mus.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-left: 1px solid #f1f1f1;
+}
+.input {
+    border-radius: 100px;
+    margin: 0 16px 15px 0;
+    font-size: 24px;
+    width: 100%;
+    padding: 3px;
+    border: 2px solid #d9d9d9;
+    line-height: 1;
+}
+
+h2 {
+    text-align: center;
+    color: #222;
+    text-transform: uppercase;
+    font-family: "Roboto",Arial,sans-serif;
+}
+h3 {
+    text-align: center;
+    color: #222;
+    margin-top: 0;
+    font-style: italic;
+    font-weight: normal;
+    font-family: "Roboto",Arial,sans-serif;
+}
+label{
+    align-self: flex-start;
+    font-size: 13px;
+}
+
+.file-upload {
+    position: relative;
+    background: #6da047;
+    border-radius: 50px;
+    padding: 8px 4px;
+    color: #fff;
+    text-align: center;
+}
+.file-upload:hover {
+    transition: 1s;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.file-upload input[type="file"] {
+    display: none;
+}
+.file-upload label {
+    display: block;
+    cursor: pointer;
+}
+.file-upload span {
+    line-height: 36px;
+}
+.avatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.change {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.change a {
+    font-size: 13px;
+    text-decoration: none;
+}
+.btn {
+    margin-top: 10px;
+}
+.button{
+    border-radius: 100px;
+    text-align: center;
+    transition: 1s;
+    padding: 10px 20px;
+    border: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    background: #269f9f;
+    color: white;
+    cursor: pointer;
+}
+.step {
+    display: block;
+    margin-top: 16px;
+}
+
+.button:hover {
+    transition: 1s;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.step_2 {
+    display: none;
+}
+.step_1 {
+    display: block;
+    margin: 0 40px;
+}
+input#check_info {
+    width: 46%;
+    display: block;
+    float: right;
+}
